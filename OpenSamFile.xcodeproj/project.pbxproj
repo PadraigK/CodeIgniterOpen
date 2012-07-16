@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A61F57315B38AE2008645DD /* CIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A61F57215B38AE2008645DD /* CIViewTests.m */; };
+		1A61F57615B38AEF008645DD /* CIControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A61F57515B38AEF008645DD /* CIControllerTests.m */; };
+		1A7C0FDC15B3421F00F1BD63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C0FDA15B3421F00F1BD63 /* InfoPlist.strings */; };
+		1A7C0FDF15B3421F00F1BD63 /* OpenSamFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FDE15B3421F00F1BD63 /* OpenSamFileTests.m */; };
+		1A7C0FE415B345B600F1BD63 /* OpenSamFilePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F163D8F40C67D694000A99F5 /* OpenSamFilePlugin.m */; };
+		1A7C0FE715B3608F00F1BD63 /* NSString+numberOfOccurrances.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FE615B3608F00F1BD63 /* NSString+numberOfOccurrances.m */; };
+		1A7C0FE815B3650700F1BD63 /* NSString+numberOfOccurrances.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FE615B3608F00F1BD63 /* NSString+numberOfOccurrances.m */; };
+		1A7C0FEB15B377D800F1BD63 /* CodeIgniterFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FEA15B377D800F1BD63 /* CodeIgniterFile.m */; };
+		1A7C0FEE15B3786F00F1BD63 /* CodeIgniterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FED15B3786F00F1BD63 /* CodeIgniterModel.m */; };
+		1A7C0FF615B3803100F1BD63 /* CodeIgniterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FF515B3803100F1BD63 /* CodeIgniterView.m */; };
+		1A7C0FF715B3803100F1BD63 /* CodeIgniterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FF515B3803100F1BD63 /* CodeIgniterView.m */; };
+		1A7C0FFA15B3803C00F1BD63 /* CodeIgniterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FF915B3803C00F1BD63 /* CodeIgniterController.m */; };
+		1A7C0FFB15B3803C00F1BD63 /* CodeIgniterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FF915B3803C00F1BD63 /* CodeIgniterController.m */; };
+		1A7C0FFF15B3847300F1BD63 /* CIModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FFD15B3847300F1BD63 /* CIModelTests.m */; };
+		1A7C100015B386A900F1BD63 /* CodeIgniterFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FEA15B377D800F1BD63 /* CodeIgniterFile.m */; };
+		1A7C100115B386A900F1BD63 /* CodeIgniterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C0FED15B3786F00F1BD63 /* CodeIgniterModel.m */; };
+		1A7C100315B3874F00F1BD63 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7C100215B3874F00F1BD63 /* SenTestingKit.framework */; };
+		1A7C100515B3875700F1BD63 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7C100415B3875700F1BD63 /* Cocoa.framework */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		F163D8F50C67D694000A99F5 /* OpenSamFilePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F163D8F40C67D694000A99F5 /* OpenSamFilePlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1A61F57115B38AE2008645DD /* CIViewTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIViewTests.h; sourceTree = "<group>"; };
+		1A61F57215B38AE2008645DD /* CIViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIViewTests.m; sourceTree = "<group>"; };
+		1A61F57415B38AEF008645DD /* CIControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIControllerTests.h; sourceTree = "<group>"; };
+		1A61F57515B38AEF008645DD /* CIControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIControllerTests.m; sourceTree = "<group>"; };
+		1A7C0FCD15B3421F00F1BD63 /* OpenSamFileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSamFileTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7C0FD415B3421F00F1BD63 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1A7C0FD515B3421F00F1BD63 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A7C0FD615B3421F00F1BD63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A7C0FD915B3421F00F1BD63 /* OpenSamFileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenSamFileTests-Info.plist"; sourceTree = "<group>"; };
+		1A7C0FDB15B3421F00F1BD63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A7C0FDD15B3421F00F1BD63 /* OpenSamFileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSamFileTests.h; sourceTree = "<group>"; };
+		1A7C0FDE15B3421F00F1BD63 /* OpenSamFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenSamFileTests.m; sourceTree = "<group>"; };
+		1A7C0FE015B3421F00F1BD63 /* OpenSamFileTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenSamFileTests-Prefix.pch"; sourceTree = "<group>"; };
+		1A7C0FE515B3608F00F1BD63 /* NSString+numberOfOccurrances.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+numberOfOccurrances.h"; sourceTree = "<group>"; };
+		1A7C0FE615B3608F00F1BD63 /* NSString+numberOfOccurrances.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+numberOfOccurrances.m"; sourceTree = "<group>"; };
+		1A7C0FE915B377D800F1BD63 /* CodeIgniterFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeIgniterFile.h; sourceTree = "<group>"; };
+		1A7C0FEA15B377D800F1BD63 /* CodeIgniterFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeIgniterFile.m; sourceTree = "<group>"; };
+		1A7C0FEC15B3786F00F1BD63 /* CodeIgniterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeIgniterModel.h; sourceTree = "<group>"; };
+		1A7C0FED15B3786F00F1BD63 /* CodeIgniterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeIgniterModel.m; sourceTree = "<group>"; };
+		1A7C0FF415B3803100F1BD63 /* CodeIgniterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeIgniterView.h; sourceTree = "<group>"; };
+		1A7C0FF515B3803100F1BD63 /* CodeIgniterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeIgniterView.m; sourceTree = "<group>"; };
+		1A7C0FF815B3803C00F1BD63 /* CodeIgniterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeIgniterController.h; sourceTree = "<group>"; };
+		1A7C0FF915B3803C00F1BD63 /* CodeIgniterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeIgniterController.m; sourceTree = "<group>"; };
+		1A7C0FFC15B3847300F1BD63 /* CIModelTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIModelTests.h; sourceTree = "<group>"; };
+		1A7C0FFD15B3847300F1BD63 /* CIModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIModelTests.m; sourceTree = "<group>"; };
+		1A7C100215B3874F00F1BD63 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A7C100415B3875700F1BD63 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1AD1281515B339E900B7EB76 /* OpenSamFile_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSamFile_Prefix.pch; sourceTree = "<group>"; };
+		1AD1281C15B33A4F00B7EB76 /* CodaPlugInsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodaPlugInsController.h; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* OpenSamFile.codaplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSamFile.codaplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		F163D8F30C67D694000A99F5 /* OpenSamFilePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSamFilePlugin.h; sourceTree = "<group>"; };
+		F163D8F40C67D694000A99F5 /* OpenSamFilePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenSamFilePlugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A7C0FC915B3421F00F1BD63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7C100515B3875700F1BD63 /* Cocoa.framework in Frameworks */,
+				1A7C100315B3874F00F1BD63 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Capitalize */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				1A7C0FD715B3421F00F1BD63 /* OpenSamFileTests */,
+				1A7C0FCE15B3421F00F1BD63 /* Frameworks */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = Capitalize;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C0FEF15B37C7000F1BD63 /* Categories */,
+				1AD1281C15B33A4F00B7EB76 /* CodaPlugInsController.h */,
+				F163D8F30C67D694000A99F5 /* OpenSamFilePlugin.h */,
+				F163D8F40C67D694000A99F5 /* OpenSamFilePlugin.m */,
+				1A7C0FE915B377D800F1BD63 /* CodeIgniterFile.h */,
+				1A7C0FEA15B377D800F1BD63 /* CodeIgniterFile.m */,
+				1A7C0FEC15B3786F00F1BD63 /* CodeIgniterModel.h */,
+				1A7C0FED15B3786F00F1BD63 /* CodeIgniterModel.m */,
+				1A7C0FF415B3803100F1BD63 /* CodeIgniterView.h */,
+				1A7C0FF515B3803100F1BD63 /* CodeIgniterView.m */,
+				1A7C0FF815B3803C00F1BD63 /* CodeIgniterController.h */,
+				1A7C0FF915B3803C00F1BD63 /* CodeIgniterController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* OpenSamFile.codaplugin */,
+				1A7C0FCD15B3421F00F1BD63 /* OpenSamFileTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A7C0FCE15B3421F00F1BD63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C100415B3875700F1BD63 /* Cocoa.framework */,
+				1A7C100215B3874F00F1BD63 /* SenTestingKit.framework */,
+				1A7C0FD315B3421F00F1BD63 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A7C0FD315B3421F00F1BD63 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C0FD415B3421F00F1BD63 /* AppKit.framework */,
+				1A7C0FD515B3421F00F1BD63 /* CoreData.framework */,
+				1A7C0FD615B3421F00F1BD63 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1A7C0FD715B3421F00F1BD63 /* OpenSamFileTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C0FDD15B3421F00F1BD63 /* OpenSamFileTests.h */,
+				1A7C0FDE15B3421F00F1BD63 /* OpenSamFileTests.m */,
+				1A7C0FD815B3421F00F1BD63 /* Supporting Files */,
+				1A7C0FFC15B3847300F1BD63 /* CIModelTests.h */,
+				1A7C0FFD15B3847300F1BD63 /* CIModelTests.m */,
+				1A61F57115B38AE2008645DD /* CIViewTests.h */,
+				1A61F57215B38AE2008645DD /* CIViewTests.m */,
+				1A61F57415B38AEF008645DD /* CIControllerTests.h */,
+				1A61F57515B38AEF008645DD /* CIControllerTests.m */,
+			);
+			path = OpenSamFileTests;
+			sourceTree = "<group>";
+		};
+		1A7C0FD815B3421F00F1BD63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C0FD915B3421F00F1BD63 /* OpenSamFileTests-Info.plist */,
+				1A7C0FDA15B3421F00F1BD63 /* InfoPlist.strings */,
+				1A7C0FE015B3421F00F1BD63 /* OpenSamFileTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A7C0FEF15B37C7000F1BD63 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C0FE515B3608F00F1BD63 /* NSString+numberOfOccurrances.h */,
+				1A7C0FE615B3608F00F1BD63 /* NSString+numberOfOccurrances.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1AD1281515B339E900B7EB76 /* OpenSamFile_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A7C0FCC15B3421F00F1BD63 /* OpenSamFileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7C0FE115B3421F00F1BD63 /* Build configuration list for PBXNativeTarget "OpenSamFileTests" */;
+			buildPhases = (
+				1A7C0FC815B3421F00F1BD63 /* Sources */,
+				1A7C0FC915B3421F00F1BD63 /* Frameworks */,
+				1A7C0FCA15B3421F00F1BD63 /* Resources */,
+				1A7C0FCB15B3421F00F1BD63 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSamFileTests;
+			productName = OpenSamFileTests;
+			productReference = 1A7C0FCD15B3421F00F1BD63 /* OpenSamFileTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D5B49AC048680CD000E48DA /* OpenSamFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "OpenSamFile" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSamFile;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = Capitalize;
+			productReference = 8D5B49B6048680CD000E48DA /* OpenSamFile.codaplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "OpenSamFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Capitalize */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* OpenSamFile */,
+				1A7C0FCC15B3421F00F1BD63 /* OpenSamFileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A7C0FCA15B3421F00F1BD63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7C0FDC15B3421F00F1BD63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A7C0FCB15B3421F00F1BD63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7C0FC815B3421F00F1BD63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7C0FDF15B3421F00F1BD63 /* OpenSamFileTests.m in Sources */,
+				1A7C0FE415B345B600F1BD63 /* OpenSamFilePlugin.m in Sources */,
+				1A7C0FE815B3650700F1BD63 /* NSString+numberOfOccurrances.m in Sources */,
+				1A7C100015B386A900F1BD63 /* CodeIgniterFile.m in Sources */,
+				1A7C100115B386A900F1BD63 /* CodeIgniterModel.m in Sources */,
+				1A7C0FF715B3803100F1BD63 /* CodeIgniterView.m in Sources */,
+				1A7C0FFB15B3803C00F1BD63 /* CodeIgniterController.m in Sources */,
+				1A7C0FFF15B3847300F1BD63 /* CIModelTests.m in Sources */,
+				1A61F57315B38AE2008645DD /* CIViewTests.m in Sources */,
+				1A61F57615B38AEF008645DD /* CIControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7C0FE715B3608F00F1BD63 /* NSString+numberOfOccurrances.m in Sources */,
+				F163D8F50C67D694000A99F5 /* OpenSamFilePlugin.m in Sources */,
+				1A7C0FEB15B377D800F1BD63 /* CodeIgniterFile.m in Sources */,
+				1A7C0FEE15B3786F00F1BD63 /* CodeIgniterModel.m in Sources */,
+				1A7C0FF615B3803100F1BD63 /* CodeIgniterView.m in Sources */,
+				1A7C0FFA15B3803C00F1BD63 /* CodeIgniterController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A7C0FDA15B3421F00F1BD63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A7C0FDB15B3421F00F1BD63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A7C0FE215B3421F00F1BD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenSamFileTests/OpenSamFileTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "OpenSamFileTests/OpenSamFileTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A7C0FE315B3421F00F1BD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenSamFileTests/OpenSamFileTests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "OpenSamFileTests/OpenSamFileTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = "$(HOME)/Library/Application Support/Coda/PlugIns";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OpenSamFile_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = OpenSamFile;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = codaplugin;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = "$(HOME)/Library/Application Support/Coda/PlugIns";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OpenSamFile_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = OpenSamFile;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = codaplugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7C0FE115B3421F00F1BD63 /* Build configuration list for PBXNativeTarget "OpenSamFileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7C0FE215B3421F00F1BD63 /* Debug */,
+				1A7C0FE315B3421F00F1BD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "OpenSamFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "OpenSamFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
